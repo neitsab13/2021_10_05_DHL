@@ -37,3 +37,9 @@
 .note-titre{
     text-align: center;
 }
+#jsLoaded{
+    background-color: blueviolet;
+    color: chartreuse;
+    font-weight: 500;
+    font-size: 25pt;
+}
