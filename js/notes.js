@@ -1,5 +1,16 @@
-function Note(){
-    var exp,destinataire,desc,dateCrea,dateExe,priority,title;
+/**
+ * 
+ * @param {*} exp // expediteur
+ * @param {*} destinataire // destinataire
+ * @param {*} desc // descriptif
+ * @param {*} dateCrea // date création 
+ * @param {*} dateExe // date publication
+ * @param {*} priority // priorité
+ * @param {*} title // titre
+ */
+
+function Note(exp1,destinataire1,desc1,dateCrea1,dateExe1,priority1,title1){
+    var exp=exp1,destinataire=destinataire1,desc=desc1,dateCrea=dateCrea1,dateExe=dateExe1,priority=priority1,title=title1;
     /**
      * mise a jour titre
      * @param {string} titre 
@@ -25,4 +36,4 @@ function Note(){
         return '{"expediteur":"'+exp+'","priorite":"'+priority+'","desc":"'+desc+'","titre":"'+title+'","dest":"'+destinataire+'"}'    
     }
 }
-var note=new Note();
+var note=new Note()
