@@ -37,3 +37,6 @@ function Note(exp1,destinataire1,desc1,dateCrea1,dateExe1,priority1,title1){
     }
 }
 var note=new Note()
+
+Note.prototype.maValeur=1234;
+
