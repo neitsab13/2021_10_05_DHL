@@ -86,12 +86,6 @@ body{
 .note-content{
   padding :0 10px
 }
-body{
-  background-image: url(../img/bg2.jpg);
-  color: white;
-  height: 99vh;
-  width:100%;
-}
 .note{
   color:white;
 }
